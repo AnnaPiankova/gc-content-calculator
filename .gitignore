@@ -1,1 +1,22 @@
-venv/
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Виртуальное окружение
+.venv/
+env/
+.venv/
+env/
+.ENV/
+
+# IDE/редакторы
+.vscode/
+.idea/
+
+# OS/system
+.DS_Store
+
+# Сгенерированные файлы
+plots/
+*.png
+*.log
