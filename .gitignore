@@ -1,22 +1,57 @@
-# Bytecode
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Виртуальное окружение
+# Virtual environment
 .venv/
 env/
-.venv/
-env/
+ENV/
+venv/
 .ENV/
+.Python
 
-# IDE/редакторы
+# VS Code
 .vscode/
+
+# PyCharm / IntelliJ
 .idea/
 
-# OS/system
+# macOS system files
 .DS_Store
 
-# Сгенерированные файлы
+# Logs and reports
+*.log
+*.out
+*.tmp
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Output folders
 plots/
 *.png
-*.log
+*.svg
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
