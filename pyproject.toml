@@ -1,0 +1,26 @@
+[project]
+name = "gc-content-calculator"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "AnnaPiankova",email = "anny.pyankova@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "biopython (>=1.85,<2.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "pandas (>=2.3.1,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "gc-content-calculator"
+version = "0.1.0"
+description = "GC Content Calculator with visualization"
+authors = ["Anna Piankova <anny.pyankova@gmail.com>"]
+packages = [{ include = "gc_calculator", from = "src" }]
